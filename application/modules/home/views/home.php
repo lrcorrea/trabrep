@@ -16,6 +16,7 @@
 
 
 <div id="wrapper">
+    <div class="overlay"></div>
     <header id="header">
         <div id="open-menu" class="hamburger hamburger--spin">
             <div class="hamburger-box">
@@ -46,21 +47,27 @@
                 <br>
 
                 Alguns dados coletados de alguns sites mostram que as pessoas acessam sites de diferentes tipos de navegadores e dispositivos. Estes dados mostram que um site pode ser visto de várias formas e em diversos contextos, por isso os sites devem estar preparados.
-                <img src="<?php echo base_url() . 'application/modules/home/img/img3.png'; ?>" alt="Dados coletados de sites já em produção">
+                <a href="<?php echo base_url() . 'img/img3.png'; ?>" class="magnific">
+                    <img src="<?php echo base_url() . 'img/img3.png'; ?>" alt="Dados coletados de sites já em produção">
+                </a>
                 <br>
                 <br>
 
                 Exemplo de site que não se adapta às telas é a UCS <a href="https://www.ucs.br/site" target="_blank">https://www.ucs.br/site</a>
                 <br>
-                Resolução 610x575 pixels
-                <img src="<?php echo base_url() . 'application/modules/home/img/img1.png'; ?>" alt="Dados coletados de sites já em produção">
+                <a href="<?php echo base_url() . 'img/img1.png'; ?>" class="magnific">
+                    <img src="<?php echo base_url() . 'img/img1.png'; ?>" alt="Captura de tela do site da UCS">
+                </a>
+                <i>Resolução 610x575 pixels</i>
                 <br>
                 <br>
 
                 Exemplo de site responsivo CNN <a href="http://edition.cnn.com/" target="_blank">http://edition.cnn.com/</a>
                 <br>
-                Resolução 610x575 pixels
-                <img src="<?php echo base_url() . 'application/modules/home/img/img2.png'; ?>" alt="Dados coletados de sites já em produção">
+                <a href="<?php echo base_url() . 'img/img2.png'; ?>" class="magnific">
+                    <img src="<?php echo base_url() . 'img/img2.png'; ?>" alt="Captura de tela do site da CNN">
+                </a>
+                <i>Resolução 610x575 pixels</i>
 
             </div>
 
